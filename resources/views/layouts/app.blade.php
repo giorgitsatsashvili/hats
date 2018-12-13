@@ -17,7 +17,6 @@
 	</footer>
 
 	{{-- js goes here --}}
-	<script src="js/owl-script.js"></script>
-
+	@include("partials/scripts")
 </body>
 </html>

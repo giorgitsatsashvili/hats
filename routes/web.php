@@ -11,4 +11,8 @@
 |
 */
 
-Route::get('/', "PageController@index");
+Route::get('/', "ProductController@index");
+
+Route::get("/signup", "PageController@signup");
+
+Route::resource("/products", "ProductController");

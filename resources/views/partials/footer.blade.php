@@ -10,7 +10,7 @@
 	<div class="footer-box">
 		<h3 class="footer-box-title">გვერდები</h3>
 		<ul>
-			<li><a href="#">მთავარი</a></li>
+			<li><a href="/">მთავარი</a></li>
 			<li><a href="#">ჩვენ შესახებ</a></li>
 			<li><a href="#">კონტაქტი</a></li>
 		</ul>
@@ -26,10 +26,10 @@
 	<div class="footer-box">
 		<h3 class="footer-box-title">გამოიწერეთ</h3>
 		<div class="social-media">
-			<a href="#"><img src="images/icons/facebook-logo-button.svg" alt=""></a>
-			<a href="#"><img src="images/icons/pinterest-social-logo.svg" alt=""></a>
-			<a href="#"><img src="images/icons/instagram-logo.svg" alt=""></a>
-			<a href="#"><img src="images/icons/gmail.svg" alt=""></a>
+			<a href="#"><img src="/images/icons/facebook-logo-button.svg" alt=""></a>
+			<a href="#"><img src="/images/icons/pinterest-social-logo.svg" alt=""></a>
+			<a href="#"><img src="/images/icons/instagram-logo.svg" alt=""></a>
+			<a href="#"><img src="/images/icons/gmail.svg" alt=""></a>
 		</div>
 	</div>
 	<div class="clear"></div>

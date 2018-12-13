@@ -30,16 +30,18 @@
 					</div>
 				</div>
 				<div class="landscape-view">
+					@foreach($products as $product)
 					<div class="landscape-box">
-						<a href="#"><img src="images/hats.jpg" alt="image-2"></a>
+						<a href="/products/{{$product->id}}"><img src="images/hats.jpg" alt="image-2"></a>
 						<div class="box-info">
 							<a href="#"><i class="fas fa-heart"></i></a>
 						</div>
 						<div class="price">
-							<strong>40 ლარი</strong>
+							<strong>{{$product->price}}</strong>
 						</div>
 					</div>
-					<div class="landscape-box">
+					@endforeach
+					{{-- <div class="landscape-box"> 
 						<a href="#"><img class="bottom-right" src="images/zangi.jpg" alt="image-3"></a>
 						<div class="box-info">
 							<a href="#"><i class="fas fa-heart"></i></a>
@@ -47,7 +49,7 @@
 						<div class="price">
 							<strong>45 ლარი</strong>
 						</div>
-					</div>
+					</div> --}}
 				</div>
 			</div>
 		</div>
@@ -106,16 +108,18 @@
 		
 		<div class="main-owl-div">
 			<div class="owl-div">
+				@foreach($products as $product)
 				<div class="product-box">
-					<a href="#"><img src="images/zangis_gogo.jpg" alt=""></a>
+					<a href="/products/{{$product->id}}"><img src="images/zangis_gogo.jpg" alt=""></a>
 					<div class="box-info">
 						<a href="#"><i class="fas fa-heart"></i></a>
 					</div>
 					<div class="price">
-						<strong>80 ლარი</strong>
+						<strong>{{$product->price}}</strong>
 					</div>
 				</div>
-				<div class="product-box">
+				@endforeach
+				 {{--<div class="product-box">
 					<a href="#"><img src="images/owl1.jpg" alt=""></a>
 					<div class="box-info">
 						<a href="#"><i class="fas fa-heart"></i></a>
@@ -159,7 +163,7 @@
 					<div class="price">
 						<strong>80 ლარი</strong>
 					</div>
-				</div>
+				</div> --}}
 				
 			</div>
 			
@@ -172,15 +176,18 @@
 	<section class="brands">
 		<div class="wrapper">
 			<div class="brand-logos">
-				<img src="images/brands/new-era.png" alt="">
-				<img src="images/brands/" alt="">
-				<img src="images/brands/" alt="">
-				<img src="images/brands/" alt="">
-				<img src="images/brands/" alt="">
-				<img src="images/brands/" alt="">
+				<img src="images/brands/kangol.jpg" alt="">
+				<img src="images/brands/bailey.jpg" alt="">
+				<img src="images/brands/barbour.jpg" alt="">
+				<img src="images/brands/christy.jpg" alt="">
+				<img src="images/brands/borsalino.jpg" alt="">
+				<img src="images/brands/new.jpg" alt="">
 			</div>
 		</div>
 	</section>
 
 	<div class="clear"></div>
+	@push("owl")
+		<script src="js/owl-script.js"></script>
+	@endpush
 @endsection
