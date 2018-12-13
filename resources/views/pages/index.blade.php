@@ -20,7 +20,7 @@
 			<div class="new-arrivals">
 				<div class="portrait-view">
 					<div class="portrait-box">
-						<img src="images/girl.jpg" alt="">
+						<a href="#"><img src="images/girl.jpg" alt="image-1"></a>
 						<div class="box-info">
 							<a href="#"><i class="fas fa-heart"></i></a>
 						</div>
@@ -31,7 +31,7 @@
 				</div>
 				<div class="landscape-view">
 					<div class="landscape-box">
-						<img src="images/hats.jpg" alt="">
+						<a href="#"><img src="images/hats.jpg" alt="image-2"></a>
 						<div class="box-info">
 							<a href="#"><i class="fas fa-heart"></i></a>
 						</div>
@@ -40,7 +40,7 @@
 						</div>
 					</div>
 					<div class="landscape-box">
-						<img class="bottom-right" src="images/zangi.jpg" alt="">
+						<a href="#"><img class="bottom-right" src="images/zangi.jpg" alt="image-3"></a>
 						<div class="box-info">
 							<a href="#"><i class="fas fa-heart"></i></a>
 						</div>

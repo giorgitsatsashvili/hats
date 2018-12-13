@@ -10,17 +10,17 @@
 	<div class="footer-box">
 		<h3 class="footer-box-title">გვერდები</h3>
 		<ul>
-			<li><a href="">მთავარი</a></li>
-			<li><a href="">ჩვენ შესახებ</a></li>
-			<li><a href="">კონტაქტი</a></li>
+			<li><a href="#">მთავარი</a></li>
+			<li><a href="#">ჩვენ შესახებ</a></li>
+			<li><a href="#">კონტაქტი</a></li>
 		</ul>
 	</div>
 	<div class="footer-box">
 		<h3 class="footer-box-title">ინფორმაცია</h3>
 		<ul>
-			<li><a href="">უსაფრთხოება პოლიტიკა</a></li>
-			<li><a href="">საიტის წესები</a></li>
-			<li><a href="">შეძენა და მიწოდება</a></li>
+			<li><a href="#">უსაფრთხოება პოლიტიკა</a></li>
+			<li><a href="#">საიტის წესები</a></li>
+			<li><a href="#">შეძენა და მიწოდება</a></li>
 		</ul>
 	</div>
 	<div class="footer-box">
