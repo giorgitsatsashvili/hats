@@ -1,0 +1,397 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ul, form {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	border: 0;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrapper {
+	max-width: 1200px;
+	width: 100%;
+	margin: auto;
+}
+.clear {
+	clear: both;
+}
+.top-header {
+	padding: 25px 0;
+	background: #eee;
+	overflow: hidden;
+	border-top: 3px solid #1c8383;
+	position: relative;
+}
+.top-header .logo {
+	float: left;
+	font-size: 32px;
+}
+.logo a {
+	text-decoration: none;
+	color: #555;
+	font-family: "ArchyEDT-Bold", sans-serif;
+}
+.search {
+	position: absolute;
+	width: 40%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.search [type="text"] {
+	width: 80%;
+	padding: 12px;
+	border: 1px solid #ffab00;
+	outline: none;
+	border-bottom-left-radius: 6px;
+	border-top-left-radius: 6px;
+}
+.search .search-btn {
+	margin-left: -5px;
+	border: none;
+	outline: none;
+	padding: 11px 20px 12px;
+	background: #ffab00;
+	font-size: 16px;
+	cursor: pointer;
+	color: white;
+	border-bottom-right-radius: 6px;
+	border-top-right-radius: 6px;
+}
+.nav-icons {
+	float: right;
+	margin-top: 10px;
+}
+.nav-icons a {
+	color: #ffab00;
+	padding: 0 15px;
+	font-size: 20px;
+}
+
+.bottom-header {
+	padding: 15px 0;
+	overflow: hidden;
+	background: #ffab00;
+}
+.bottom-header .navbar .nav-item {
+	float: left;
+	width: 16.66%;
+	text-align: center;
+}
+.navbar .nav-item .nav-link {
+	text-decoration: none;
+	color: #fff;
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+}
+
+.main-banner {
+	position: relative;
+}
+.main-banner img {
+	width: 100%;
+}
+.banner-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.banner-content .banner-title {
+	color: #1c8383;
+	font-size: 42px;
+	margin-bottom: 20px;
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+}
+.banner-content .banner-text {
+	color: #fff;
+	margin-bottom: 30px;
+	font-size: 24px;
+	font-family: "BPG Nino Mkhedruli", sans-serif;
+}
+.banner-content .banner-btn {
+	text-decoration: none;
+	padding: 10px 35px;
+	border: 3px solid #ffab00;
+	font-size: 24px;
+	color: white;
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+}
+.news {
+	padding: 100px 0;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.news h2 {
+	text-align: center;
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	font-size: 32px;
+	color: #ffab00;
+	margin-bottom: 30px;
+}
+.portrait-view {
+	float: left;
+	width: 42.5%;
+	margin-right: 1%;
+}
+.portrait-box {
+	position: relative;
+}
+.portrait-view img {
+	width: 100%;
+	border-top-left-radius: 50px;
+}
+.box-info {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.price {
+	position: absolute;
+	bottom: 30px;
+	padding: 10px 0px 10px 30px;
+	box-sizing: border-box;
+	width: 200px;
+	background: rgba(28, 131, 131, 0.7);
+	border-top-right-radius: 30px;
+	color: #fff;
+	font-size: 24px;
+	font-family: "ArchyEDT-Bold", sans-serif;
+}
+.box-info a {
+	color: #ffab00;
+	font-size: 21px;
+}
+.landscape-view {
+	float: right;
+	width: 56.5%;
+}
+.landscape-box {
+	position: relative;
+}
+.landscape-view img {
+	width: 100%;
+	margin-bottom: 7.9px;
+}
+.landscape-view .bottom-right {
+	border-bottom-right-radius: 50px;
+}
+
+.categories {
+	padding: 100px 0;
+	overflow: hidden;
+	box-sizing: border-box;
+	background: #f7f7f7;
+}
+.categories h2 {
+	text-align: center;
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	font-size: 32px;
+	color: #ffab00;
+	margin-bottom: 30px;
+}
+.cats-box {
+	float: left;
+	width: 31%;
+	position: relative;
+}
+.cats-box img {
+	width: 100%;
+}
+.cats-middle-box {
+	margin: 0 3.5%;
+}
+.cats-box-title {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	color: #fff;
+	background: #1c8383;
+	padding: 20px 0;
+	text-align: center;
+	font-size: 24px;
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+}
+.cats-box-btn {
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	width: 150px;
+	transform: translateX(-50%);
+	padding: 5px 20px;
+	border: 3px solid #ffab00;
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+}
+.cats-box-btn a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 21px;
+}
+.cats-box-first img {
+	border-bottom-left-radius: 60px;
+}
+.cats-box-last img {
+	border-top-right-radius: 60px;
+}
+.cats-box-last .cats-box-title {
+	border-top-right-radius: 60px;
+}
+
+.sales {
+	height: 700px;
+	background-image: url("../images/sale-banner.jpg");
+	background-size: cover;
+	background-position: center top;
+	background-attachment: fixed;
+}
+.sale-content-outer {
+	position: relative;
+	height: 700px;
+}
+.sale-content-inner {
+	position: absolute;
+	right: 0;
+	top: 25%;
+}
+.sale-content-inner .sale-title {
+	color: #fff;
+	font-size: 36px;
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	margin-bottom: 40px;
+}
+.sale-content-inner .sale-percent {
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	font-size: 100px;
+	color: white;
+	margin-bottom: 30px;
+}
+.sale-content-inner .sale-btn {
+	text-decoration: none;
+	padding: 10px 35px;
+	border: 3px solid #1c8383;
+	font-size: 24px;
+	color: white;
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+}
+
+.top-rates {
+	padding: 100px 0;
+	overflow: hidden;
+	background: url("../images/back-hat.jpg") no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.top-rates h2 {
+	text-align: center;
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	font-size: 32px;
+	color: #ffab00;
+	margin-bottom: 30px;
+}
+.main-owl-div {
+	max-width: 1180px;
+	width: 100%;
+	overflow: hidden;
+	margin: auto;
+	height: 420px;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	position: relative;
+}
+.owl-div {
+	width: 1800px;
+	height: 100%;
+	transform: translateX(0px);
+	transition: all 600ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.owl-div .product-box {
+	display: inline-block;
+	float: left;
+	width: 280px;
+	margin-right: 20px;
+	position: relative;
+}
+.owl-div .product-box img {
+	width: 100%;
+	display: block;
+}
+.btn {
+	cursor: pointer;
+}
+#btn-prev {
+	position: absolute;
+	top: 50%;
+	left: 290px;
+	width: 60px;
+	height: 60px;
+}
+#btn-prev img {
+	width: 100%;
+}
+#btn-next {
+	position: absolute;
+	top: 50%;
+	right: 290px;
+	width: 60px;
+	height: 60px;
+}
+#btn-next img {
+	width: 100%;
+}
+
+.brands {
+	padding: 100px 0;
+	overflow: hidden;
+	background: #f7f7f7;
+}
+
+footer {
+	padding: 60px 0;
+	overflow: hidden;
+	background: #e6e7e8;
+	color: #808285;
+}
+.footer-box {
+	float: left;
+	width: 25%;
+}
+.footer-box .footer-box-title {
+	margin-bottom: 15px;
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	font-size: 20px;
+}
+.footer-box ul li {
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-family: "BPG Nino Mkhedruli", sans-serif;
+}
+.footer-box ul li a {
+	text-decoration: none;
+	color: #808285;
+	
+}
+.social-media {
+	margin-top: 30px;
+}
+.social-media a {
+	display: block;
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-right: 20px;
+}
+.social-media a img {
+	width: 100%;
+}
+.copyrights {
+	font-family: "BPG Nino Mkhedruli", sans-serif;
+	text-align: right;
+	font-size: 21px;
+}
