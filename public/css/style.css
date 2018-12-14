@@ -78,7 +78,7 @@ table {
 .bottom-header {
 	padding: 15px 0;
 	overflow: hidden;
-	background: #ffab00;
+	background: #263238;
 }
 .bottom-header .navbar .nav-item {
 	float: left;
@@ -91,6 +91,10 @@ table {
 	text-decoration: none;
 	color: #fff;
 	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	transition-duration: .3s;
+}
+.navbar .nav-item .nav-link:hover {
+	color: #ffab00;
 }
 
 .main-banner {
@@ -349,16 +353,19 @@ table {
 }
 
 .brands {
-	padding: 100px 0;
+	padding: 60px 0;
 	overflow: hidden;
-	background: #f7f7f7;
+	background: #fff;
 }
-
+.brand-images {
+	float: left;
+	width: 16.66%;
+}
 footer {
 	padding: 60px 0;
 	overflow: hidden;
-	background: #e6e7e8;
-	color: #808285;
+	background: #263238;
+	color: #fff;
 }
 .footer-box {
 	float: left;
@@ -376,7 +383,7 @@ footer {
 }
 .footer-box ul li a {
 	text-decoration: none;
-	color: #808285;
+	color: #fff;
 	
 }
 .social-media {

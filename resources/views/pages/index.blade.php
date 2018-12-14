@@ -176,12 +176,24 @@
 	<section class="brands">
 		<div class="wrapper">
 			<div class="brand-logos">
-				<img src="images/brands/kangol.jpg" alt="">
-				<img src="images/brands/bailey.jpg" alt="">
-				<img src="images/brands/barbour.jpg" alt="">
-				<img src="images/brands/christy.jpg" alt="">
-				<img src="images/brands/borsalino.jpg" alt="">
-				<img src="images/brands/new.jpg" alt="">
+				<div class="brand-images">
+					<img src="images/brands/kangol.jpg" alt="kangol-logo">
+				</div>
+				<div class="brand-images">
+					<img src="images/brands/bailey.jpg" alt="bailey">
+				</div>
+				<div class="brand-images">
+					<img src="images/brands/barbour.jpg" alt="barbour-logo">
+				</div>
+				<div class="brand-images">
+					<img src="images/brands/christy.jpg" alt="christy-logo">
+				</div>
+				<div class="brand-images">
+					<img src="images/brands/lock.jpg" alt="lock-logo">
+				</div>
+				<div class="brand-images">
+					<img src="images/brands/new.jpg" alt="new-logo">
+				</div>
 			</div>
 		</div>
 	</section>

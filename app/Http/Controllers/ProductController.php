@@ -14,8 +14,8 @@ class ProductController extends Controller
      */
     public function index()
     {
-        $products = Product::limit(6)->get();
-        $test =  $products->slice(2);
+        $products = Product::take(2)->get();
+        $products2 = Product::limit(6)->get();
         return view("pages/index")->with("products", $products);
     }
 
