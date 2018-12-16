@@ -13,6 +13,9 @@
 
 Route::get('/', "ProductController@index");
 
+
 Route::get("/signup", "PageController@signup");
 
 Route::resource("/products", "ProductController");
+Route::get("/category/{id}", "CategoryController@getProductByCategory");
+
