@@ -23,11 +23,14 @@ table {
 .clear {
 	clear: both;
 }
+
+/********************** Header **********************/
+
 .top-header {
 	padding: 25px 0;
 	background: #eee;
 	overflow: hidden;
-	border-top: 3px solid #1c8383;
+	border-top: 3px solid #263238;
 	position: relative;
 }
 .top-header .logo {
@@ -73,6 +76,10 @@ table {
 	color: #ffab00;
 	padding: 0 15px;
 	font-size: 20px;
+	transition-duration: .3s;
+}
+.nav-icons a:hover {
+	color: #1c8383;
 }
 
 .bottom-header {
@@ -96,6 +103,8 @@ table {
 .navbar .nav-item .nav-link:hover {
 	color: #ffab00;
 }
+
+/********************** Banner **********************/
 
 .main-banner {
 	position: relative;
@@ -130,6 +139,9 @@ table {
 	color: white;
 	font-family: "BPG Nino Mtavruli Bold", sans-serif;
 }
+
+/********************** New Products Section **********************/
+
 .news {
 	padding: 100px 0;
 	overflow: hidden;
@@ -189,6 +201,8 @@ table {
 .landscape-view .bottom-right {
 	border-bottom-right-radius: 50px;
 }
+
+/********************** Categories Section **********************/
 
 .categories {
 	padding: 100px 0;
@@ -250,6 +264,8 @@ table {
 	border-top-right-radius: 60px;
 }
 
+/********************** Sales Section **********************/
+
 .sales {
 	height: 700px;
 	background-image: url("../images/sale-banner.jpg");
@@ -286,6 +302,8 @@ table {
 	color: white;
 	font-family: "BPG Nino Mtavruli Bold", sans-serif;
 }
+
+/********************** Top Rates Section **********************/
 
 .top-rates {
 	padding: 100px 0;
@@ -352,6 +370,8 @@ table {
 	width: 100%;
 }
 
+/********************** Brands Section **********************/
+
 .brands {
 	padding: 60px 0;
 	overflow: hidden;
@@ -361,6 +381,9 @@ table {
 	float: left;
 	width: 16.66%;
 }
+
+/********************** Footer Section **********************/
+
 footer {
 	padding: 60px 0;
 	overflow: hidden;
@@ -384,7 +407,10 @@ footer {
 .footer-box ul li a {
 	text-decoration: none;
 	color: #fff;
-	
+	transition-duration: .3s;
+}
+.footer-box ul li a:hover {
+	color: #ffab00;
 }
 .social-media {
 	margin-top: 30px;

@@ -58,35 +58,33 @@
     <section class="categories">
         <div class="wrapper">
             <h2>კატეგორიები</h2>
-            @foreach($categories as $category)
-                <div class="cats-box cats-box-first">
-                    <img src="images/zangi2.jpg" alt="women">
-                    <div class="cats-box-title">
-                        {{$category->title}}
-                    </div>
-                    <div class="cats-box-btn">
-                        <a href="#">სწრაფი ყიდვა</a>
-                    </div>
+            <div class="cats-box cats-box-first">
+                <img src="images/qali.jpg" alt="women">
+                <div class="cats-box-title">
+                    ქალები
                 </div>
-            @endforeach
-            {{--<div class="cats-box cats-middle-box">--}}
-            {{--<img src="images/zangi2.jpg" alt="men">--}}
-            {{--<div class="cats-box-title">--}}
-            {{--კაცები--}}
-            {{--</div>--}}
-            {{--<div class="cats-box-btn">--}}
-            {{--<a href="#">სწრაფი ყიდვა</a>--}}
-            {{--</div>--}}
-            {{--</div>--}}
-            {{--<div class="cats-box cats-box-last">--}}
-            {{--<img src="images/kid.jpg" alt="kids">--}}
-            {{--<div class="cats-box-title">--}}
-            {{--ბავშვები--}}
-            {{--</div>--}}
-            {{--<div class="cats-box-btn">--}}
-            {{--<a href="#">სწრაფი ყიდვა</a>--}}
-            {{--</div>--}}
-            {{--</div>--}}
+                <div class="cats-box-btn">
+                    <a href="#">სწრაფი ყიდვა</a>
+                </div>
+            </div>
+            <div class="cats-box cats-middle-box">
+              <img src="images/zangi2.jpg" alt="men">
+              <div class="cats-box-title">
+               კაცები
+              </div>
+              <div class="cats-box-btn">
+                <a href="#">სწრაფი ყიდვა</a>
+              </div>
+            </div>
+            <div class="cats-box cats-box-last">
+              <img src="images/kid.jpg" alt="kids">
+              <div class="cats-box-title">
+                ბავშვები
+              </div>
+              <div class="cats-box-btn">
+                <a href="#">სწრაფი ყიდვა</a>
+              </div>
+            </div>
         </div>
     </section>
 
