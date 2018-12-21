@@ -24,6 +24,18 @@ table {
 	clear: both;
 }
 
+/********************** navbar icon **********************/
+
+.menu-bar {
+	position: absolute;
+	right: 40px;
+	top: 30px;
+	font-size: 28px;
+	cursor: pointer;
+	color: #263238;
+	display: none;
+}
+
 /********************** Header **********************/
 
 .top-header {
@@ -49,7 +61,7 @@ table {
 	transform: translateX(-50%);
 }
 .search [type="text"] {
-	width: 80%;
+	width: 75%;
 	padding: 12px;
 	border: 1px solid #ffab00;
 	outline: none;
@@ -133,8 +145,8 @@ table {
 }
 .banner-content .banner-btn {
 	text-decoration: none;
+	background: #ffab00;
 	padding: 10px 35px;
-	border: 3px solid #ffab00;
 	font-size: 24px;
 	color: white;
 	font-family: "BPG Nino Mtavruli Bold", sans-serif;
@@ -244,9 +256,9 @@ table {
 	bottom: 30px;
 	left: 50%;
 	width: 150px;
+	background: #ffab00;
 	transform: translateX(-50%);
-	padding: 5px 20px;
-	border: 3px solid #ffab00;
+	padding: 7px 20px;
 	font-family: "BPG Nino Mtavruli Bold", sans-serif;
 }
 .cats-box-btn a {
@@ -430,4 +442,86 @@ footer {
 	text-align: right;
 	font-size: 18px;
 	font-weight: bold;
+}
+
+/********************** Media Queries **********************/
+
+@media(max-width: 998px) {
+	.menu-bar {
+		display: block;
+	}
+	.search {
+		display: none;
+	}
+	.nav-icons {
+		float: none;
+		display: none;
+	}
+	.bottom-header {
+		display: none;
+	}
+	.top-header {
+		border-bottom: 3px solid #263238;
+	}
+}
+
+@media(max-width: 768px) {
+	
+	.banner-content {
+		width: 100%;
+	}
+	.banner-content .banner-title {
+		font-size: 32px;
+		margin-bottom: 15px;
+	}
+	.banner-content .banner-text {
+		margin-bottom: 20px;
+		font-size: 18px;
+	}
+	.banner-content .banner-btn {
+		padding: 8px 20px;
+		font-size: 16px;
+	}
+	.news {
+		padding: 60px 0;
+	}
+	.price {
+		width: 150px;
+		font-size: 20px;
+	}
+	.categories {
+		padding: 60px 0;
+	}
+	.cats-box {
+		float: none;
+		width: 92%;
+		margin: 0;
+		margin: 4% auto;
+	}
+	.cats-box img {
+		border-radius: 0;
+	}
+	.cats-box .cats-box-title {
+		border-radius: 0;
+	}
+	/*.cats-box-title {
+		padding: 10px 0;
+		font-size: 19px;
+	}
+	.cats-box-btn {
+		bottom: 30px;
+		width: 100px;
+		padding: 5px 20px;
+	}*/
+	/*.cats-box-btn a {
+		text-decoration: none;
+		color: #fff;
+		font-size: 14px;
+	}
+	.cats-box-last img {
+		border-top-right-radius: 50px;
+	}*/
+	.sales {
+		height: 500px;
+	}
 }

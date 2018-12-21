@@ -1,4 +1,7 @@
 <div class="top-header">
+    <div class="menu-bar">
+        <i class="fas fa-bars"></i>
+    </div>
     <div class="wrapper">
         <h1 class="logo">
             <a href="/">ქუდები</a>
