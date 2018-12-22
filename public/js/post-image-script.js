@@ -16,3 +16,14 @@ function closeModalBox() {
 	modal.style.display = "none";
 }
 
+window.onclick = function(event) {
+	if(event.target == modal) {
+		modal.style.display = "none";
+	}
+}
+
+window.onkeydown = function( event ) {
+    if ( event.keyCode == 27 ) {
+       modal.style.display = "none";
+    }
+};

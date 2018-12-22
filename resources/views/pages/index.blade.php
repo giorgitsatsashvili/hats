@@ -2,12 +2,13 @@
 
 @section("content")
     <div class="main-banner">
-        <img src="images/main_banner.jpg" alt="banner">
+        <img src="images/main-banner.jpg" alt="banner">
 
         <div class="banner-content">
             <div class="wrapper">
                 <h2 class="banner-title">ახალი კოლექცია</h2>
                 <p class="banner-text">შეიძინეთ საუკეთესო პროდუქცია სახლიდან გაუსვლელად</p>
+                <p class="banner-text">საუკეთესო ფასად</p>
                 <a class="banner-btn" href="#">სწრაფი ყიდვა</a>
             </div>
         </div>

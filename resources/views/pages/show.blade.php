@@ -11,6 +11,7 @@
 	</div>
 </div>
 <main>
+	<div class="extra-margin-div">
 	<div class="wrapper">
 		<div class="post">
 			<div class="post-img">
@@ -56,11 +57,11 @@
 					</select>
 				</div>
 				<div class="post-desc">
-					<p>{{-- შემთხვევითად გენერირებული ტექსტი ეხმარება დიზაინერებს და ტიპოგრაფიული ნაწარმის შემქმნელებს, რეალურთან მაქსიმალურად მიახლოებული შაბლონი წარუდგინონ შემფასებელს. ხშირადაა შემთხვევა, როდესაც დიზაინის შესრულებისას საჩვენებელია, თუ როგორი იქნება ტექსტის ბლოკი. სწორედ ასეთ დროს არის მოსახერხებელი ამ გენერატორით შექმნილი ტექსტის გამოყენება, --}} {{$product->description}}</p>
+					<p>{{$product->description}}</p>
 				</div>
 				<div class="post-add">
 					<form class="post-quantity">
-					 	<input type="number" name="quantity" min="1" max="{{$product->quantity}}" value="{{$product->quantity}}">
+					 	<input type="number" name="quantity" min="1" max="{{$product->quantity}}" value="1">
 					 	<button class="cart-btn" name="add-to-cart">
 							<i class="fas fa-shopping-cart"></i>
 							კალათაში დამატება
@@ -141,6 +142,7 @@
 			</div>
 			<div class="clear"></div>
 		</div>
+	</div>
 	</div>
 </main>
 @push("post_image")
