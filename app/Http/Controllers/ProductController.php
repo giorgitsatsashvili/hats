@@ -33,7 +33,10 @@ class ProductController extends Controller
     public function show($id)
     {
         $product = Product::find($id);
-        return view("pages/show")->with("product", $product);
+        $categories = Category::orderBy('order', 'ASC')->get();
+        return view("pages/show")
+            ->with("product", $product)
+            ->with("categories", $categories);
     }
 
     public function edit($id)

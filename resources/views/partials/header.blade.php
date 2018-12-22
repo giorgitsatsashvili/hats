@@ -22,13 +22,13 @@
 <nav class="bottom-header">
     <div class="wrapper">
         <ul class="navbar">
-           {{--  @foreach($categories as $category)
+            @foreach($categories as $category)
                 <li class="nav-item">
                     <a class="nav-link" href="/category/{{$category->id}}">
                         {{$category->title}}
                     </a>
                 </li>
-            @endforeach --}}
+            @endforeach
         </ul>
     </div>
 </nav>
