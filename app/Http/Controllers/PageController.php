@@ -10,7 +10,7 @@ class PageController extends Controller
     	return view("pages/index");
     }
 
-    public function signup() {
-    	return view("pages/signup");
+    public function login() {
+    	return view("pages/login");
     }
 }

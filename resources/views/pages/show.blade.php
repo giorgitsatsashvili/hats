@@ -10,7 +10,6 @@
 		</div>
 	</div>
 </div>
-<main>
 	<div class="extra-margin-div">
 	<div class="wrapper">
 		<div class="post">
@@ -144,7 +143,6 @@
 		</div>
 	</div>
 	</div>
-</main>
 @push("post_image")
     <script src="/js/post-image-script.js"></script>
 @endpush

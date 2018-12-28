@@ -10,6 +10,6 @@ class CategoryController extends Controller
     {
         /** @var Category $Category */
         $data = Category::with(['product'])->findorfail($id);
-        return view('cat')->with('data',$data);
+        return view('cat')->with('data', $data);
     }
 }

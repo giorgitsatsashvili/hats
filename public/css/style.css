@@ -56,18 +56,23 @@ table {
 }
 .search {
 	position: absolute;
-	width: 40%;
-	left: 50%;
+	width: 35%;
+	left: 45%;
 	transform: translateX(-50%);
 }
 .search [type="text"] {
-	width: 75%;
+	width: 85%;
 	padding: 12px;
 	border: 1px solid #fff;
 	background: #e6e7e8;
 	outline: none;
 	border-bottom-left-radius: 6px;
 	border-top-left-radius: 6px;
+	transition-duration: .3s;
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+}
+.search [type="text"]:focus {
+	background: #fff;
 }
 .search .search-btn {
 	margin-left: -5px;
@@ -80,6 +85,7 @@ table {
 	color: #263238;
 	border-bottom-right-radius: 6px;
 	border-top-right-radius: 6px;
+	border-left: 1px solid #e6e7e8;
 }
 .nav-icons {
 	float: right;
@@ -87,9 +93,11 @@ table {
 }
 .nav-icons a {
 	color: #263238;
+	text-decoration: none;
 	padding: 0 15px;
 	font-size: 20px;
 	transition-duration: .3s;
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
 }
 .nav-icons a:hover {
 	color: #ffab00;

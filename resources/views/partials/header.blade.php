@@ -11,9 +11,32 @@
             <button class="search-btn" name="search"><i class="fas fa-search"></i></button>
         </form>
         <div class="nav-icons">
-            <a class="nav-link" href="/signup"><i class="fas fa-user"></i></a>
-            <a class="nav-link" href="#"><i class="fas fa-heart"></i></a>
-            <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+            @guest
+                <a class="nav-link" href="{{ route('login') }}">ავტორიზაცია</a>
+                @if (Route::has('register'))
+                    <a class="nav-link" href="{{ route('register') }}">რეგისტრაცია</a>
+                @endif
+            @else
+                <a class="nav-link" href="/signup"><i class="fas fa-user"></i></a>
+                <a class="nav-link" href="#"><i class="fas fa-heart"></i></a>
+                <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+
+                <a class="nav-link" href="/home">
+                    {{ Auth::user()->name }} 
+                </a>
+
+                <a class="nav-link" href="{{ route('logout') }}"
+                       onclick="event.preventDefault();
+                                     document.getElementById('logout-form').submit();">
+                        {{ __('Logout') }}
+                </a>
+
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                            @csrf
+                        </form>
+                    </div>
+                
+            @endguest
         </div>
     </div>
 </div>

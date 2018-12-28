@@ -14,8 +14,12 @@
 Route::get('/', "ProductController@index");
 
 
-Route::get("/signup", "PageController@signup");
+Route::get("/signup", "PageController@login");
 
 Route::resource("/products", "ProductController");
 Route::get("/category/{id}", "CategoryController@getProductByCategory");
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

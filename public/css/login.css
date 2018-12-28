@@ -1,0 +1,147 @@
+.extra-margin-div {
+	margin: 100px 0;
+	overflow: hidden;
+}
+.login-title {
+	text-align: center;
+	font-size: 32px;
+	font-family: "BPG Arial Caps", sans-serif;
+	color: #263238;
+	margin-bottom: 30px;
+}
+.login-form {
+	width: 60%;
+	margin: auto;
+}
+.login-form .field {
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 10px;
+	border: 2px solid #aaa;
+	outline: none;
+	font-family: "BPG Arial Caps", sans-serif;
+	color: #a7a9ac;
+	box-sizing: border-box;
+	margin-bottom: 25px;
+	transition-duration: .3s;
+}
+.login-form .field:focus {
+	border: 2px solid #ffab00;
+}
+.login-form #email, .login-form #user {
+	border-top-left-radius: 15px;
+	margin-bottom: 25px;
+}
+.login-form #pass, .login-form #confirm {
+	border-bottom-right-radius: 15px;
+}
+.login-form .gender-btn {
+	margin-bottom: 25px;
+
+}
+.login-form .gender-btn:after {
+	width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #fff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #ccc;
+}
+.login-form .gender-btn:checked:after {
+	width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffab00;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #ccc;
+}
+.login-form .gender-title {
+	display: inline-block;
+	margin-right: 10px;
+	color: #263238;
+	font-family: "BPG Arial Caps", sans-serif;
+	padding-top: 5px;
+}
+.login-form .gender-txt {
+	display: inline-block;
+	margin-left: 10px;
+	color: #666;
+	font-family: "BPG Boxo", sans-serif;
+}
+.login-form .birth {
+	margin-bottom: 15px;
+	padding: 10px;
+	color: #666;
+	font-size: 16px;
+	font-weight: 700;
+	outline: none;
+	border: 1px solid #aaa;
+	border-bottom-right-radius: 15px;
+}
+::placeholder { 
+  color: #a7a9ac;
+  opacity: 1;
+}
+.login-infobox .checkbox-text {
+	color: #a7a9ac;
+	font-family: "BPG Boxo", sans-serif;
+	margin-left: 10px;
+}
+.login-infobox .forget {
+	float: right;
+	color: #a7a9ac;
+	text-decoration: none;
+	margin-top: 3px;
+}
+.login-form .login-btn {
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	color: #fff;
+	font-size: 17px;
+	background: #ffab00;
+	padding: 15px 30px 10px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+
+.signup-box {
+	text-align: center;
+	margin: 60px 0;
+}
+.signup-link-box {
+	margin-bottom: 60px;
+}
+.signup-link-box a {
+	color: #263238;
+}
+.fb-signup-box {
+	margin-bottom: 20px;
+}
+.fb-signup-box .fb-signup {
+	border: 1px solid #ffab00;
+	text-decoration: none;
+	padding: 15px 0 10px;
+	display: inline-block;
+	width: 250px;
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	color: #a7a9ac;
+}
+.email-signup-box .email-signup {
+	text-decoration: none;
+	color: #fff;
+	background: #ffab00;
+	padding: 15px 0 10px;
+	display: inline-block;
+	width: 250px;
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+}
