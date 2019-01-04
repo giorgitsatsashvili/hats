@@ -1,0 +1,58 @@
+.search-product {
+	border: 1px solid #ccc;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 20px;
+	border-top-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+}
+.search-img-box {
+	float: left;
+	width: 30%;
+	border-right: 1px solid #ccc;
+	display: block;
+	box-sizing: border-box;
+}
+.search-img-box img {
+	width: 100%;
+}
+.search-box-text {
+	float: right;
+	width: 68%;
+	margin-left: 2%;
+}
+.search-box-text .search-box-title {
+	font-size: 32px;
+	color: #444;
+	margin: 21px 0;
+	font-family: "Roboto", sans-serif;
+}
+.search-box-text .search-box-body {
+	color: #999;
+	margin: 21px 0;
+	line-height: 1.5rem;
+	font-family: "BPG Arial", sans-serif;
+	padding-right: 30px;
+	box-sizing: border-box;
+}
+.search-box-btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.search-box-btn .search-box-btn-link {
+	padding: 15px 25px;
+	display: block;
+	background: #ffab00;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	color: #fff;
+	font-family: "BPG Arial caps", sans-serif;
+}
+.down-arrow {
+	text-align: center;
+	font-size: 64px;
+	color: #ffab00;
+	cursor: pointer;
+}
