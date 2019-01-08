@@ -6,9 +6,9 @@
         <h1 class="logo">
             <a href="/">ქუდები</a>
         </h1>
-        <form class="search" action="" method="POST">
-            <input type="text" name="" placeholder="ძებნა">
-            <button class="search-btn" name="search"><i class="fas fa-search"></i></button>
+        <form class="search" action="/search" method="GET">
+            <input type="text" name="search" placeholder="ძებნა">
+            <button class="search-btn" name="submit"><i class="fas fa-search"></i></button>
         </form>
         <div class="nav-icons">
             @guest

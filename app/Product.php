@@ -2,6 +2,7 @@
 
 namespace App;
 
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
@@ -14,4 +15,9 @@ class Product extends Model
         "price",
         "quantity",
     ];
+
+    public function scopeSearch(Builder $query, $title)
+    {
+        return $query->where('title', 'like', '%' . $title . '%');
+    }
 }
