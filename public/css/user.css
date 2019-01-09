@@ -1,0 +1,86 @@
+.user-info {
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 40px;
+	background: #eee;
+	box-sizing: border-box;
+}
+.user-image {
+	margin-bottom: 20px;
+}
+.user-image img {
+	width: 20%;
+}
+.user-name {
+	font-size: 32px;
+	color: #263238;
+	margin-bottom: 30px;
+	font-family: "BPG Arial Caps", sans-serif;
+}
+.user-info .settings-link {
+	color: #555;
+	font-size: 18px;
+	font-family: "Roboto", sans-serif;
+}
+.tab-content {
+	overflow: hidden;
+}
+.tabs {
+	border-bottom: 1px solid #263238;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+.tabs .tab-item {
+	display: inline-block;
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+.tabs .tab-link {
+	font-size: 24px;
+	color: #263238;
+	font-family: "BPG Arial Caps", sans-serif;
+	background: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.tab-content-container {
+	margin-top: 50px;
+}
+.tab-content-box {
+	float: left;
+	width: 24%;
+	margin: 0.5%;
+}
+.tab-content-box img {
+	width: 100%;
+	border: 1px solid #ccc;
+	border-top-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+}
+.tab-content-box .tab-content-box-title {
+	color: #666;
+	margin: 10px auto;
+	font-family: 'Roboto', sans-serif;
+	width: 60%;
+	text-align: center;
+}
+.more-content-btn {
+	text-align: center;
+	margin-top: 40px;
+}
+.more-content-btn #more-btn {
+	padding: 10px 30px;
+	background: #ffab00;
+	color: #fff;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	font-family: "BPG Arial Caps", sans-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.tabs .tab-link-active {
+	color: #ffab00;
+}

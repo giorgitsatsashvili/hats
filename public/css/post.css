@@ -43,7 +43,7 @@
 	width: 43%;
 }
 .post-info .post-title {
-	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	font-family: "BPG Arial Caps", sans-serif;
 	font-size: 28px;
 	color: #1c8383;
 	margin-bottom: 5px;
@@ -67,7 +67,7 @@
 .post-info .post-size {
 	color: #666;
 	margin-bottom: 30px;
-	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	font-family: "BPG Arial Caps", sans-serif;
 }
 .post-info select {
 	width: 60px;
@@ -78,7 +78,7 @@
 	color: #666;
 	font-size: 18px;
 	line-height: 1.8rem;
-	font-family: "BPG Nino Mkhedruli", sans-serif;
+	font-family: "BPG Arial", sans-serif;
 	margin-bottom: 30px;
 }
 .post-info .post-add .post-quantity {
@@ -126,7 +126,7 @@
 	text-align: center;
 	font-size: 32px;
 	margin: 50px 0 20px;
-	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	font-family: "BPG Arial Caps", sans-serif;
 }
 .feat-post {
 	width: 18%;
@@ -147,7 +147,7 @@
 	color: #444;
 }
 .feat-post .feat-price {
-	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	font-family: "BPG Arial Caps", sans-serif;
 	font-size: 20px;
 	color: #1c8383;
 	margin-bottom: 10px;

@@ -61,7 +61,7 @@ table {
 	transform: translateX(-50%);
 }
 .search [type="text"] {
-	width: 85%;
+	width: 70%;
 	padding: 12px;
 	border: 1px solid #fff;
 	background: #e6e7e8;
@@ -69,7 +69,7 @@ table {
 	border-bottom-left-radius: 6px;
 	border-top-left-radius: 6px;
 	transition-duration: .3s;
-	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	font-family: "BPG Arial Caps", sans-serif;
 }
 .search [type="text"]:focus {
 	background: #fff;
@@ -97,7 +97,7 @@ table {
 	padding: 0 15px;
 	font-size: 20px;
 	transition-duration: .3s;
-	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	font-family: "BPG Arial Caps", sans-serif;
 }
 .nav-icons a:hover {
 	color: #ffab00;
@@ -118,7 +118,7 @@ table {
 .navbar .nav-item .nav-link {
 	text-decoration: none;
 	color: #fff;
-	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	font-family: "BPG Arial Caps", sans-serif;
 	transition-duration: .3s;
 }
 .navbar .nav-item .nav-link:hover {
@@ -144,7 +144,7 @@ table {
 	color: #fff;
 	font-size: 42px;
 	margin-bottom: 40px;
-	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	font-family: "BPG Arial Caps", sans-serif;
 }
 .banner-content .banner-text {
 	color: #fff;
@@ -160,7 +160,7 @@ table {
 	padding: 10px 35px 6px;
 	font-size: 24px;
 	color: white;
-	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	font-family: "BPG Arial Caps", sans-serif;
 }
 
 /********************** New Products Section **********************/
@@ -172,7 +172,7 @@ table {
 }
 .news h2 {
 	text-align: center;
-	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	font-family: "BPG Arial Caps", sans-serif;
 	font-size: 32px;
 	color: #ffab00;
 	margin-bottom: 30px;
@@ -238,7 +238,7 @@ table {
 }
 .categories h2 {
 	text-align: center;
-	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	font-family: "BPG Arial Caps", sans-serif;
 	font-size: 32px;
 	color: #263238;
 	margin-bottom: 30px;
@@ -263,7 +263,7 @@ table {
 	padding: 20px 0;
 	text-align: center;
 	font-size: 24px;
-	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	font-family: "BPG Arial Caps", sans-serif;
 }
 .cats-box-btn {
 	position: absolute;
@@ -273,7 +273,7 @@ table {
 	border: 3px solid #ffab00;
 	transform: translateX(-50%);
 	padding: 10px 20px 6px;
-	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	font-family: "BPG Arial Caps", sans-serif;
 }
 .cats-box-btn a {
 	text-decoration: none;
@@ -311,11 +311,11 @@ table {
 .sale-content-inner .sale-title {
 	color: #fff;
 	font-size: 36px;
-	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	font-family: "BPG Arial Caps", sans-serif;
 	margin-bottom: 40px;
 }
 .sale-content-inner .sale-percent {
-	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	font-family: "BPG Arial Caps", sans-serif;
 	font-size: 100px;
 	color: white;
 	margin-bottom: 30px;
@@ -326,7 +326,7 @@ table {
 	border: 3px solid #263238;
 	font-size: 24px;
 	color: white;
-	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	font-family: "BPG Arial Caps", sans-serif;
 }
 
 /********************** Top Rates Section **********************/
@@ -339,7 +339,7 @@ table {
 }
 .top-rates h2 {
 	text-align: center;
-	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	font-family: "BPG Arial Caps", sans-serif;
 	font-size: 32px;
 	color: #263238;
 	margin-bottom: 30px;
@@ -421,13 +421,13 @@ footer {
 }
 .footer-box .footer-box-title {
 	margin-bottom: 15px;
-	font-family: "BPG Nino Mtavruli Bold", sans-serif;
+	font-family: "BPG Arial Caps", sans-serif;
 	font-size: 20px;
 }
 .footer-box ul li {
 	margin-bottom: 10px;
 	font-size: 18px;
-	font-family: "BPG Nino Mkhedruli", sans-serif;
+	font-family: "BPG Arial", sans-serif;
 }
 .footer-box ul li a {
 	text-decoration: none;
@@ -451,7 +451,7 @@ footer {
 	width: 100%;
 }
 .copyrights {
-	font-family: "BPG Nino Mkhedruli", sans-serif;
+	font-family: "BPG Arial", sans-serif;
 	text-align: right;
 	font-size: 18px;
 	font-weight: bold;

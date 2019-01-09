@@ -31,8 +31,8 @@
 {{-- <link rel="dns-prefetch" href="//fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css"> --}}
 <link rel="stylesheet" href="../css/archyedt-bold.min.css">
-<link rel="stylesheet" href="../css/bpg-nino-mtavruli-bold.min.css">
-<link rel="stylesheet" href="../css/bpg-nino-mkhedruli.min.css">
+<link rel="stylesheet" href="../css/bpg-arial-caps.min.css">
+<link rel="stylesheet" href="../css/bpg-arial.min.css">
 <link rel="stylesheet" href="../css/bpg-boxo.min.css">
 
 <!-- Styles -->
@@ -42,3 +42,4 @@
 <link rel="stylesheet" href="../css/post.css">
 <link rel="stylesheet" href="../css/login.css">
 <link rel="stylesheet" href="../css/search.css">
+<link rel="stylesheet" href="../css/user.css">
