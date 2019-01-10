@@ -56,3 +56,48 @@
 	color: #ffab00;
 	cursor: pointer;
 }
+
+/******************** Category page stylesheet ********************/
+
+.cat-page-title {
+	font-size: 32px;
+	color: #263238;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 1%;
+	margin-bottom: 2%;
+}
+.cat-box {
+	width: 31%;
+	float: left;
+	margin: 1%;
+	position: relative;
+	
+}
+.cat-box img {
+	width: 100%;
+	border-radius: 20px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.cat-box .cat-box-title {
+	margin-top: 10px;
+}
+.cat-box .cat-box-title a {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	color: #666;
+	font-size: 22px;
+}
+.cat-box .cat-box-icons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.cat-box .cat-box-icons a {
+	background: #263238;
+	padding: 5px;
+	color: #fff;
+	font-size: 14px;
+	margin-left: 5px;
+}
