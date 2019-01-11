@@ -2,7 +2,7 @@
 @section("content")
 	<div class="extra-margin-div">
 		<div class="wrapper">
-            {{--<h1 class="cat-page-title">{{$categories->title}}</h1>--}}
+            {{ --<h1 class="cat-page-title">{{$categories->title}}</h1>--}}
             @foreach($products as $product)
                 <h1 class="cat-page-title"></h1>
 			<div class="cat-box">
