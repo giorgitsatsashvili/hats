@@ -4,9 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-/**
- * @property Product product
+/**\
  * @property string title
+ * @property Product product
  */
 class Category extends Model
 {

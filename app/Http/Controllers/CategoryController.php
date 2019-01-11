@@ -8,8 +8,14 @@ class CategoryController extends Controller
 {
     public function getProductByCategory($id)
     {
-        /** @var Category $Category */
-        $data = Category::with(['product'])->findorfail($id);
-        return view('cat')->with('data', $data);
+        /** @var Category $categories */
+        $categories = Category::orderBy('order', 'ASC')->get();
+
+        /** @var Category $data */
+        $category = Category::with(['product'])->find($id);
+        return view('pages/cat')
+            ->with ('categories',$categories)
+            ->with('products', $category->product );
     }
 }
+
